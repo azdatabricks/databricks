@@ -1,0 +1,47 @@
+<employees>
+    <details>
+        <firstname>rama</firstname>
+        <lastname>krishna</lastname>
+        <title>Engineer</title>
+        <division>
+			<course1>computer</course1>
+			<course2>science</course2>
+		</division>
+        <building>301</building>
+        <room>11</room>
+    </details> 
+    <details>
+        <firstname>sai</firstname>
+        <lastname>siva</lastname>
+        <title>developer</title>
+        <division>
+			<course1>computer1</course1>
+			<course2>science1</course2>
+		</division>
+        <building>303</building>
+        <room>02</room>
+    </details> 
+    <details>
+        <firstname>kumar</firstname>
+        <lastname>deepak</lastname>
+        <title>Tester</title>
+        <division>
+			<course1>computer2</course1>
+			<course2>science2</course2>
+		</division>
+        <building>304</building>
+        <room>10</room>
+    </details> 
+    <details>
+        <firstname>reddy</firstname>
+        <lastname>DT</lastname>
+        <title>Designer</title>
+        <division>
+			<course1>computer3</course1>
+			<course2>science3</course2>
+		</division>
+        <building>305</building>
+        <room>14</room>
+    </details>
+    
+</employees>
