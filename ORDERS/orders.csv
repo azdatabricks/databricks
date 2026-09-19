@@ -1,0 +1,8 @@
+orderid,ordername,orderdate,orderprice,email,orderaddress
+1,Laptop,2020-10-10,10,abc@gmail.com,hyderbad
+1,Laptop,2020-10-10,10,abc@gmail.com,hyderbad
+2,,2020-11-10,20,xyz@gmail.com,bangalore
+2,Book,2022-10-10,30,xxx@gmail.com,pune
+3,TV,2021-10-09,-40,yyy@gmail.com,delhi
+5,watch,2020-10-08,50,zzz@gmail.com,mumbai
+6,mobile,02-01-20233,40,abbbb@gmail.com,noida

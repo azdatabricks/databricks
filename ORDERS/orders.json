@@ -1,0 +1,12 @@
+{
+"sourcefile":"/mnt/global/india/landing/orders/",
+"targetfile":"/mnt/global/india/silver/orders/",
+"pendingfile":"/mnt/global/india/reject/orders/",
+"auditfile":"/mnt/global/india/auditdata/orders/",
+"duplicate_check":"yes",
+"null_check":["ordername","email"],
+"no_negative_value":["orderprice"],
+"dateformatchecks":["orderdate"],
+"required_cols":["orderid","orderaddress","ordername","orderdate","orderprice"],
+"cols_datatype":[{"orderdate":"date","orderprice":"int","orderid":"int"}]
+}

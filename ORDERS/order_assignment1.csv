@@ -1,0 +1,11 @@
+order_id,customer_id,customer_name,product,amount,status,city
+101,1,Alice,Laptop,1200,Shipped,New York
+102,2,Bob,Mouse,25,Failed,Chicago
+103,3,Charlie,Keyboard,75,Shipped,Los Angeles
+104,1,Alice,Monitor,300,Shipped,New York
+105,2,Bob,Laptop,1200,Shipped,Chicago
+106,1,Alice,Monitor,300,Shipped,New York
+107,4,David,Desk,200,Cancelled,Chicago
+108,5,Eva,Chair,150,Shipped,San Francisco
+109,6,Frank,Mouse,25,Shipped,New York
+110,3,Charlie,Laptop,1200,Failed,Los Angeles
