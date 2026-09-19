@@ -1,0 +1,10 @@
+Region,Country,ItemType,SalesChannel,OrderPriority,OrderID,UnitsSold,UnitPrice,UnitCost,TotalRevenue,TotalCost,TotalProfit,ShippingCost
+Middle East and North Africa,Libya,Cosmetics,Offline,M,686800706,8446,437.2,263.33,3692591.2,2224085.18,1468506.02,3423
+North America,Canada,Vegetables,Online,M,185941302,3018,154.06,90.93,464953.08,274426.74,190526.34,332432
+Middle East and North Africa,Libya,Baby Food,Offline,C,246222341,1517,255.28,159.42,387259.76,241840.14,145419.62,443543
+Asia,Japan,Cereal,Offline,C,161442649,3322,205.7,117.11,683335.4,389039.42,294295.98,34324
+Sub-Saharan Africa,Chad,Fruits,Offline,H,645713555,9845,9.33,6.92,91853.85,68127.4,23726.45,5754
+Europe,Armenia,Cereal,Online,H,683458888,9528,205.7,117.11,1959909.6,1115824.08,844085.52,2124
+Sub-Saharan Africa,Eritrea,Cereal,Online,H,679414975,2844,205.7,117.11,585010.8,333060.84,251949.96,64645
+Europe,Montenegro,Clothes,Offline,M,208630645,7299,109.28,35.84,797634.72,261596.16,536038.56,4124
+Central America and the Caribbean,Jamaica,Vegetables,Online,H,266467225,2428,154.06,90.93,374057.68,220778.04,153279.64,53434

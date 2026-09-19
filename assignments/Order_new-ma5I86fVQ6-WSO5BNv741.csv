@@ -1,0 +1,20 @@
+Region,Country,ItemType,SalesChannel,OrderPriority,OrderID,UnitsSold,UnitPrice,UnitCost,TotalRevenue,TotalCost,TotalProfit
+Middle East and North Africa,Libya,Cereal,Online,M,686800706,8446,437.2,263.33,3692591.2,2224085.18,1468506.02
+Middle East and North Africa,Libya,Cereal,Online,M,185941302,3018,154.06,90.93,464953.08,274426.74,190526.34
+Middle East and North Africa,Libya,Cereal,Online,C,246222341,1517,255.28,159.42,387259.76,241840.14,145419.62
+Middle East and North Africa,Libya,Cereal,Online,C,161442649,3322,205.7,117.11,683335.4,389039.42,294295.98
+Middle East and North Africa,Libya,Cereal,Online,H,645713555,9845,9.33,6.92,91853.85,68127.4,23726.45
+Middle East and North Africa,Libya,Cereal,Online,H,683458888,9528,205.7,117.11,1959909.6,1115824.08,844085.52
+Middle East and North Africa,Libya,Cereal,Online,H,679414975,2844,205.7,117.11,585010.8,333060.84,251949.96
+Middle East and North Africa,Libya,Cereal,Online,M,208630645,7299,109.28,35.84,797634.72,261596.16,536038.56
+Middle East and North Africa,Libya,Cereal,Online,H,266467225,2428,154.06,90.93,374057.68,220778.04,153279.64
+Middle East and North Africa,Libya,Cereal,Online,H,118598544,4800,154.06,90.93,739488,436464,303024
+Middle East and North Africa,Libya,Cereal,Online,M,451010930,3012,109.28,35.84,329151.36,107950.08,221201.28
+Middle East and North Africa,Libya,Cereal,Online,M,220003211,2694,152.58,97.44,411050.52,262503.36,148547.16
+Middle East and North Africa,Libya,Cereal,Online,L,584072101,8769,255.28,159.42,2238550.32,1397953.98,840596.34
+Middle East and North Africa,Libya,Cereal,Online,C,919890248,4821,421.89,364.69,2033931.69,1758170.49,275761.2
+Middle East and North Africa,Libya,Cereal,Online,C,534085166,6524,152.58,97.44,995431.92,635698.56,359733.36
+Middle East and North Africa,Libya,Cereal,Online,H,590768182,288,255.28,159.42,73520.64,45912.96,27607.68
+Middle East and North Africa,Libya,Cereal,Online,C,524363124,9556,154.06,90.93,1472197.36,868927.08,603270.28
+Middle East and North Africa,Libya,Cereal,Online,L,289606320,9801,668.27,502.54,6549714.27,4925394.54,1624319.73
+Middle East and North Africa,Libya,Cereal,Online,C,811546599,3528,205.7,117.11,725709.6,413164.08,312545.52
