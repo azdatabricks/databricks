@@ -1,0 +1,43 @@
+[delta.autoOptimize.autoCompact=false,delta.autoOptimize.optimizeWrite=false,delta.minReaderVersion=1,delta.minWriterVersion=2]
+
+
+[delta.autoOptimize.autoCompact=false,delta.autoOptimize.optimizeWrite=false,
+
+delta.constraints.age_check=age >= 18 and age < 100,
+
+delta.minReaderVersion=1,delta.minWriterVersion=3]
+
+=-----------------------------------------------------------
+
+part-00000-d9aff3e6-8f70-4f28-ad3d-71c07a38710e.c000.snappy.parquet (id=1)
+
+part-00000-75853a85-00a5-4b61-851b-d702fe379da9.c000.snappy.parquet (id=2,3,4,5) - Rem
+
+part-00000-94af168a-e085-4678-bde8-052a2d4a355e.c000.snappy.parquet id=2,3,4,5 - Rem
+
+part-00000-f47228e9-69e3-429f-b8f0-dec867b2c062.c000.snappy.parquet id=2,3,4 - Rem
+
+part-00000-e639b089-8ed1-4fa2-90df-9157add979f6.c000.snappy.parquet id=2,4
+
+part-00000-56bdf275-da96-4cc2-bc71-63a8d503a112.c000.snappy.parquet id=3,5
+
+
+---Deletion Vector ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

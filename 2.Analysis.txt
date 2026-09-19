@@ -1,0 +1,61 @@
+2. Deletion Vector in Databricks?
+> DVs are storage optimizations in databricks
+> Dvs allow for marking rows as deleted without actually rewriting the entire parquet file containting those rows.
+> It is helpful when your performing delete, update, merge operations
+> Dv is optimizing data write operation by Avoiding rewriting unchanged(same) data into another files.
+
+
+TBLPROPERTIES('delta.enableDeletionVectors'=true)
+
+
+===============================================================================
+part-00000-34b958b4-927d-41ec-9bfc-d1f1381dd66d.c000.snappy.parquet - (id=1) - R
+
+part-00000-4871d848-db4b-4035-ad51-cc5f7bf2bad2.c000.snappy.parquet - (id=2,3,4,5)- (R)
+
+deletion_vector > part-00000-4871d848-db4b-4035-ad51-cc5f7bf2bad2.c000.snappy.parquet(5)
+
+part-00000-904c2ec5-fb80-4562-ade2-d9491c8b9232.c000.snappy.parquet - 1 (id=5) - R
+
+part-00000-1ae53c0a-4560-492c-80e8-e8516a09eb7b.c000.snappy.parquet - 5 (1,2,3,4,5(DV)) - (R)
+
+part-00000-ea39dddd-45ea-4ba9-8f10-0673b8f57de7.c000.snappy.parquet - 4 (1,2,3(DV),4) - (R)
+
+part-00000-294de224-1a6a-4164-9d3b-ab8dfa18722b.c000.snappy.parquet - 2 (3,5) - (R)
+
+part-00000-1b0c8661-919f-4a24-960a-056b345b54c4.c000.snappy.parquet - 5 (1,2,3,4,5)
+
+TBLPROPERTIES('delta.deletedFileRetensionDuration'='Interval 30 days')
+
+spark.databricks.delta.properties.default.deletedFileRetensionDuration 'inteval 30 days'
+
+
+display(df) | 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
