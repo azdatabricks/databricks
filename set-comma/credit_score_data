@@ -1,0 +1,57 @@
+CREATE TABLE CreditScore
+(
+  Credit_ID INT,
+  Card_Type nvarchar(50),
+  Credit_Name NVARCHAR (50),
+  Credit_Score INT
+) 
+
+
+INSERT INTO CreditScore VALUES (1,'visa','cloudpandith', 978)
+INSERT INTO CreditScore VALUES (2,'visa','rama', 1240)
+INSERT INTO CreditScore VALUES (3,'visa','krishna', 1140)
+INSERT INTO CreditScore VALUES (4,'visa','sai', 770)
+INSERT INTO CreditScore VALUES (5,'visa','sai', 770)
+INSERT INTO CreditScore VALUES (6,'visa','srinu', 1240)
+INSERT INTO CreditScore VALUES (7,'visa','srinu', 1240)
+INSERT INTO CreditScore VALUES (8,'visa','siva', 1140)
+INSERT INTO CreditScore VALUES (9,'visa','siva', 1140)
+INSERT INTO CreditScore VALUES (1,'Master','cloudpandith', 978)
+INSERT INTO CreditScore VALUES (2,'Master','rama', 770)
+INSERT INTO CreditScore VALUES (3,'Master','krishna', 1140)
+INSERT INTO CreditScore VALUES (4,'Master','sai', 1240)
+INSERT INTO CreditScore VALUES (5,'Master','sai', 1240)
+INSERT INTO CreditScore VALUES (6,'Master','srinu', 1240)
+INSERT INTO CreditScore VALUES (7,'Master','srinu', 1240)
+INSERT INTO CreditScore VALUES (8,'Master','siva', 1140)
+INSERT INTO CreditScore VALUES (9,'Master','siva', 1140)
+
+
+WITH cloudpandithcte
+     AS (SELECT *,ROW_NUMBER() OVER (PARTITION BY card_type,credit_name,credit_score
+                                       ORDER BY credit_id) Rownumber
+         FROM   creditscore)
+delete FROM cloudpandithcte where Rownumber>1
+
+
+SELECT *, ROW_NUMBER() OVER(partition by card_type ORDER BY credit_Score desc) AS RowNumber
+FROM creditScore
+
+SELECT *, rank() OVER(partition by card_type ORDER BY credit_Score desc) AS RankNumber
+FROM creditScore
+
+SELECT *, dense_rank() OVER(partition by card_type ORDER BY credit_Score desc) AS DenseRankNumber
+FROM creditScore
+
+select *,
+ROW_NUMBER() OVER(partition by card_type ORDER BY credit_Score desc) AS RowNumber,
+rank() OVER(partition by card_type ORDER BY credit_Score desc) AS RankNumber,
+dense_rank() OVER(partition by card_type ORDER BY credit_Score desc) AS DenseRankNumber
+from creditScore
+
+
+
+
+
+
+

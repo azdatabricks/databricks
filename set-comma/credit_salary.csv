@@ -1,0 +1,13 @@
+Credit_ID,Card_Type,Credit_Name,credit_Score
+1,Master,cloudpandith,100
+1,visa,cloudpandith,200
+2,Master,rama,300
+2,visa,rama,400
+3,Master,krishna,500
+3,visa,krishna,600
+4,Master,sai,900
+4,visa,sai,800
+6,Master,srinu,900
+6,visa,srinu,1000
+8,visa,siva,1000
+8,Master,siva,1200

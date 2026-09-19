@@ -1,0 +1,5 @@
+Cust_ID,Cust_Name,manager,city,Start_date,end_date,is_active
+1,tiru,srikanth,delhi,2019-01-01,null,1
+2,rama,srinu,hyderbad,2019-02-01,null,1
+3,krishna,mahesh,delhi,2019-03-01,null,1
+4,Sai,Thomas,pune,2019-04-01,null,1

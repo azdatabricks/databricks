@@ -1,0 +1,5 @@
+[
+{"id": "0001","type": "software","name": "cloudpandith","profit":"3000","managment":[{ "id": "5005", "type": "Architect" },{ "id": "5007", "type": "Director" },{ "id": "5006", "type": "Analytics Head" },{ "id": "5003", "type": "ceo" },{ "id": "5004", "type": "cto" }]},
+{"id": "0002","type": "online Trainings","name": "cloudpandith trainings","profit":"4000","managment":[{ "id": "5001", "type": "deliver manager" },{ "id": "5002", "type": "delivery head" },{ "id": "5005", "type": "manager" }]},
+{"id": "0003","type": "software development center","name": "cloudpandith BI","profit":"5000","managment":[{ "id": "5001", "type": "CTO" },{ "id": "5002", "type": "ceo" },{ "id": "5003", "type": "project manager" }]}
+]

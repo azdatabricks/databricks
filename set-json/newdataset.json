@@ -1,0 +1,10 @@
+[{
+	"sname": "cloudpandith",
+	"marks": [{
+		"sid": 123,
+		"hallticket": 8904424822,
+		"city": "bangalore",
+		"email": "cloudpandith@gmail.com"
+	}],
+	"result": "pass"
+}]

@@ -1,0 +1,13 @@
+id,type,name,profit,mngm_id,mngm_type
+0001,software,cloudpandith,3000,5005,Architect
+0001,software,cloudpandith,3000,5007,Directory
+0001,software,cloudpandith,3000,5006,Analytics Head
+0001,software,cloudpandith,3000,5003,ceo
+0001,software,cloudpandith,3000,5004,cto
+0002,online Trainings,cloudpandith trainings,4000,5001,delivery manager
+0002,online Trainings,cloudpandith trainings,4000,5002,delivery head
+0002,online Trainings,cloudpandith trainings,4000,5004,manager
+0003,software development center,cloudpandith BI,5000,5001,CTO
+0003,software development center,cloudpandith BI,5000,5002,ceo
+0003,software development center,cloudpandith BI,5000,5003,project manager
+

@@ -1,0 +1,30 @@
+[{
+  "Name": "Test",
+  "ResourceName": "Azure Databricks",
+  "IsFree": true,
+  "AutoScaling": [2, 4],
+  "Region": {
+    "Permanent Region": "INDIA",
+   "current Region": "AU"
+  }
+},
+{
+  "Name": "UAT",
+  "ResourceName": "Azure Databricks",
+  "IsFree": true,
+  "AutoScaling": [3, 5],
+  "Region": {
+    "Permanent Region": "INDIA",
+   "current Region": "AU"
+  }
+},
+{
+  "Name": "Prod",
+  "ResourceName": "Azure Databricks",
+  "IsFree": true,
+  "AutoScaling": [8, 12],
+  "Region": {
+    "Permanent Region": "INDIA",
+   "current Region": "AU"
+  }
+}]

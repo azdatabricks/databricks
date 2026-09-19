@@ -1,0 +1,37 @@
+﻿[
+{
+  "userId": 6,
+  "firstName": "mallaiah",
+  "lastName": "s",
+  "phoneNumber": "8904424822",
+  "emailAddress": "cloudpandith@gmail.com"
+},
+{
+  "userId": 7,
+  "firstName": "racks",
+  "lastName": "jacson",
+  "phoneNumber": "8904424822",
+  "emailAddress": "racks.jacson@cloudpandith.com"
+},
+{
+  "userId": 8,
+  "firstName": "denial",
+  "lastName": "roast",
+  "phoneNumber": "8904424822",
+  "emailAddress": "denial.roast@cloudpandith.com"
+},
+{
+  "userId": 9,
+  "firstName": "devid",
+  "lastName": "neo",
+  "phoneNumber": "8904424822",
+  "emailAddress": "devid.neo@cloudpandith.com"
+},
+{
+  "userId": 10,
+  "firstName": "jone",
+  "lastName": "mac",
+  "phoneNumber": "8904424822",
+  "emailAddress": "jone.mac@cloudpandith.com"
+}
+]
